@@ -1,0 +1,37 @@
+:host {
+    width: 610px;
+}
+
+.item {
+    width: 180px;
+    display: inline-block;
+
+  &.ng-invalid {
+    //border-color: red;
+  }
+}
+
+.gray {
+    background-color: #eee;
+}
+
+.line {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    &.footer {
+    align-items: center;
+    }
+
+    .item{
+       width: 140px;
+    }
+
+    .btn {
+        height: 50px;
+        margin-top:2px;
+    }
+
+}
